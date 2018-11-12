@@ -1,0 +1,14 @@
+---
+title: "Week 3 Bonus Quiz"
+output: html_document
+---
+
+```{r message = FALSE}
+#install.packages("devtools")
+#devtools::install_github("jhudsl/collegeIncome")
+library(collegeIncome)
+data(college)
+
+#devtools::install_github("jhudsl/matahari")
+library(matahari)
+```
